@@ -1060,8 +1060,13 @@ dependencies = [
 name = "rust-k8s-operator"
 version = "0.1.0"
 dependencies = [
+ "futures",
  "k8s-openapi",
  "kube",
+ "schemars",
+ "serde",
+ "serde_json",
+ "thiserror",
  "tokio",
 ]
 
